@@ -307,7 +307,8 @@ var cdList = window.cdlist = new CdList({
       extensions: 'all',
       offset: 10,
       city: 'beijing',
-      keywords: '餐饮'
+      keywords: '餐饮',
+      page: data.pagination + 1,
     };
 
     return 'https://restapi.amap.com/v3/place/text?' + $.param(param);
