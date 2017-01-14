@@ -1,0 +1,48 @@
+#cdlist-search {
+  margin-bottom: 20px; }
+
+.banner {
+  border-bottom: 1px solid #efefef;
+  margin-bottom: 20px;
+  background: #f7f7f7;
+  padding-top: 10px; }
+  .banner .banner-logo {
+    text-align: center;
+    margin-bottom: 5px; }
+    .banner .banner-logo i {
+      color: #ff5a00;
+      font-size: 68px;
+      line-height: 68px;
+      vertical-align: middle; }
+    .banner .banner-logo .name {
+      font-size: 22px;
+      margin-left: 10px;
+      vertical-align: sub; }
+  .banner .desc {
+    text-align: center;
+    color: #999;
+    margin-bottom: 15px; }
+    .banner .desc em {
+      font-size: 28px;
+      margin: 0 5px;
+      color: #ff5a00; }
+  .banner .button-wrap {
+    margin-bottom: 15px;
+    text-align: center; }
+
+.home {
+  font-size: 0;
+  overflow: hidden; }
+
+.cdlist-container {
+  font-size: 14px;
+  width: 50%;
+  display: block;
+  float: left; }
+
+.script-wrap {
+  display: block;
+  width: 50%;
+  float: left; }
+  .script-wrap pre, .script-wrap code {
+    font-size: 12px; }
