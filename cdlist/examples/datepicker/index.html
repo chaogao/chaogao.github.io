@@ -242,7 +242,7 @@
       <span class="na">city</span><span class="p">:</span> <span class="s1">'beijing'</span>
     <span class="p">};</span>
 
-    <span class="k">return</span> <span class="s1">'http://restapi.amap.com/v3/place/text?'</span> <span class="o">+</span> <span class="nx">$</span><span class="p">.</span><span class="nx">param</span><span class="p">(</span><span class="nx">param</span><span class="p">);</span>
+    <span class="k">return</span> <span class="s1">'https://restapi.amap.com/v3/place/text?'</span> <span class="o">+</span> <span class="nx">$</span><span class="p">.</span><span class="nx">param</span><span class="p">(</span><span class="nx">param</span><span class="p">);</span>
   <span class="p">},</span>
 
   <span class="na">empty</span><span class="p">:</span> <span class="kd">function</span> <span class="p">()</span> <span class="p">{</span>
@@ -313,7 +313,7 @@ var cdList = window.cdlist = new CdList({
       city: 'beijing'
     };
 
-    return 'http://restapi.amap.com/v3/place/text?' + $.param(param);
+    return 'https://restapi.amap.com/v3/place/text?' + $.param(param);
   },
 
   empty: function () {
